@@ -1,4 +1,4 @@
-# DiSec: Mitigating Backdoors in Pre-trained Language Models via Disentanglement of Adversarial Weights for Secure Fine-Tuning
+# [DiSec: Mitigating Backdoors in Pre-trained Language Models via Disentanglement of Adversarial Weights for Secure Fine-Tuning](https://aclanthology.org/2026.findings-acl.815/)
 
 
 ## Environment Versions
@@ -69,4 +69,26 @@ python3 fine-tunning/BERT/sst2.py \
   --config_path "<path_to_config_json>" \
   --tokenizer_path "<path_to_tokenizer_directory>" \
   --triggers "<list_of_trigger_tokens_as_a_string>"
+```
+
+## Citation
+
+```bibtex
+@inproceedings{das-li-2026-disec,
+    title = "{D}i{S}ec: Mitigating Backdoors in Pre-trained Language Models via Disentanglement of Adversarial Weights for Secure Fine-Tuning",
+    author = "Das, Sunanda  and
+      Li, Qinghua",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.815/",
+    pages = "16540--16559",
+    ISBN = "979-8-89176-395-1"
+}
 ```
